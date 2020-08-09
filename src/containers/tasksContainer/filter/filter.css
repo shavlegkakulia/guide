@@ -1,0 +1,9 @@
+.Filter {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+label {
+    margin-right: 5px;
+}

@@ -1,0 +1,26 @@
+.Task {
+    height: auto;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+    background: #f7efef;
+    box-shadow: 0px 1px 5px #f7efef;
+    cursor: pointer;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.CreationDate {
+    color: #000;
+    font-size: 12px;
+}

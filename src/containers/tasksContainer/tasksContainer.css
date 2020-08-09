@@ -1,0 +1,11 @@
+.TaskName {
+    width: -webkit-fill-available;
+}
+
+.TaskDescription {
+    width: -webkit-fill-available;
+}
+
+.ButtonContainer {
+    margin-top: 15px;
+}

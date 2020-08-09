@@ -1,0 +1,42 @@
+.Pagination {
+    list-style: none;
+    display: flex;
+    padding: 0 20px;
+}
+
+li {
+    padding: 7px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+li.Num {
+    background: #cccccc;
+}
+
+li.Active{
+    background: #e67a7a;
+}
+
+li.First {
+    background: #cccccc;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+li.Last {
+    background: #cccccc;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+li.Previous, li.Next {
+    padding: 7px;
+    margin: 0 2px;
+    background: #cccccc;
+}
+
+li.Disabled {
+    background: #cccccc59;
+    cursor: default;
+}

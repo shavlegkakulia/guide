@@ -1,0 +1,19 @@
+.StepsBox {
+
+}
+
+.Add {
+    font-size: 18px;
+    font-weight: 700;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.Add:hover {
+    font-weight: 900;
+}
